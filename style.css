@@ -222,13 +222,15 @@
     margin-right: 13%;
     outline: none;
     cursor: pointer;
+    background: white;
 }
 
 .tweet_btn:hover
 {
     background: skyblue;
-    /*color:white;*/
+    color:white;
 }
+
 
 .search_box_area
 {
@@ -498,5 +500,23 @@
         width: 48%;
         height: 100vh;
         margin-left: 24%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .tweet_btn
+    {
+        width:100%; 
+    }
+
+    .icon_parent
+    {
+        margin-left: 4px;
+    }
+
+
+    .first_icon 
+    {
+        margin-left: 21% !important;
     }
 }
